@@ -70,3 +70,16 @@ Para aplicar estilos utilizamos la propiedad `color` de CSS.
 </body>
 </html>
 ```
+
+>"El diseño no es solo cómo se ve o cómo se siente. El diseño es cómo funciona."
+>- Steve Jobs
+
+| Hora  | Lunes | Martes | Miércoles | Jueves | Viernes |
+|-------|-------|--------|-----------|--------|---------|
+| 08:00 | DEWS  | DEWS   | DAW       | OPTAT  | OPTAT   |
+| 09:00 | DWES  | DWES   | DAW       | DWES   | OPTAT   |
+| 10:00 | DIW   | IPE II | INGL      | DWES   | DWEC    |
+| 11:00 | RECREO| RECREO | ~~RECREO~~    | RECREO | RECREO  |
+| 11:30 | DIW   | IPE II | INGL      | DIW    | DWEC    |
+| 12:30 | PI    | DWEC   | DWEC      | DIW    | DWES    |
+| 13:30 | PI    | DWEC   | DWEC      | DIW    | IPE II  |
