@@ -1,12 +1,12 @@
 # Diseño de Interfaces Web
 ## Perfil
 ### Sobre mi 
-Me llamo Nahum, soy estudiante del grado superior de Desarrollo de Aplicaciones Web y esta es una tarea para el módulo de **Diseño de Interfaces Web**
+Me llamo Nahum😁, soy estudiante del grado superior de Desarrollo de Aplicaciones Web y esta es una tarea para el módulo de **Diseño de Interfaces Web**💻
 
 ---
 
 ### Curso 
-*Curso 2026/2027*
+*Curso 2026/2027*📅
 
 ---
 
