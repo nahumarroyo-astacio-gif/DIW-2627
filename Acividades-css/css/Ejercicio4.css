@@ -1,0 +1,19 @@
+.definicion{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.parrafo_especial{
+    font-size: 14px;
+    font-style: italic;
+    color: #F4A261;
+}
+
+h1, h2{
+    color: #E9C46A;
+}
+
+p{
+    color: #2A9D8F;
+}

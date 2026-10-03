@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    color: black;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2.5;
+    font-size: 14px;
+}
+p span{
+    font-style: italic;
+    text-decoration: underline;
+}

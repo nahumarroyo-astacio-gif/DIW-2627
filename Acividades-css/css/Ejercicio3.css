@@ -1,0 +1,18 @@
+.parrafo_destacado{
+    font-size: 0.8rem;
+    color: #ff0000;
+    font-style: italic;
+}
+
+.parrafo_estandar{
+    font-size: 1.2rem;
+    color: #2A9D8F;
+}
+
+p{
+   color: #E9C46A;
+}
+
+h1, h2{
+    color: #F4A261;
+}
