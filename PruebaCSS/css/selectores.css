@@ -64,7 +64,7 @@ img[alt$="o"]{
 }
 
 img[alt~="mono"]{
-    border: 10px solid blue;
+    outline: 10px solid blue;
 }
 
 a[href*="contacto.html"]{
