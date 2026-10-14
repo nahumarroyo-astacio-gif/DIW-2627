@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    color: gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+a {
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    font-size: 28px;
+    background-color: black;
+}
+
+table {
+    border: 1px dotted black;
+}

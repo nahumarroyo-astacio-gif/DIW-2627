@@ -1,0 +1,21 @@
+main {
+    background-image:
+        url("../logos_web/css3.png"),
+        url("../logos_web/html5.png"),
+        url("../logos_web/js.png");
+
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat;
+
+    background-position:
+        left top,
+        center center,
+        right bottom;
+
+    background-size:
+        100px auto,
+        100px auto,
+        100px auto;
+}

@@ -1,0 +1,39 @@
+/* Lista 1 */
+.lista1 {
+    list-style-type: square;
+    color: darkblue;
+    padding: 20px;
+}
+
+.lista1 li {
+    margin: 8px 0;
+}
+
+/* Lista 2 */
+.lista2 {
+    list-style-type: upper-roman;
+    color: darkgreen;
+    padding: 20px;
+}
+
+.lista2 li {
+    margin: 8px 0;
+}
+
+/* Lista 3 */
+.lista3 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista3 li {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+.lista3 li:hover {
+    background-color: white;
+    color: black;
+}

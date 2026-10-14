@@ -1,0 +1,11 @@
+body {
+    background-image: url("../logos_web/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+p {
+    background-color: rgba(20, 20, 20, 0.7);
+}
