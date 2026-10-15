@@ -1,21 +1,26 @@
 main {
     background-image:
-        url("../logos_web/css3.png"),
         url("../logos_web/html5.png"),
+        url("../logos_web/css3.png"),
         url("../logos_web/js.png");
 
     background-repeat:
         no-repeat,
         no-repeat,
-        no-repeat;
+        no-repeat; 
 
     background-position:
-        left top,
+        left center,
         center center,
-        right bottom;
+        right center;
 
     background-size:
-        100px auto,
-        100px auto,
-        100px auto;
+        100px,
+        100px,
+        100px;
+}
+
+article, footer{
+    background-color: rgba(20, 20, 20, 0.6);
+    color: azure;
 }
