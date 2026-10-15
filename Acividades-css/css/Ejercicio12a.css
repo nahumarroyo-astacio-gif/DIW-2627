@@ -1,11 +1,19 @@
 body {
+    background-color: lightgray;
     background-image: url("../logos_web/background.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
 }
 
-p {
-    background-color: rgba(20, 20, 20, 0.7);
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.manifesto{
+    background-color: rgba(20, 20, 20, 0.6);
+    color: rgb(200, 200, 200);
+    margin: 2rem;
+    padding: 4rem;
 }
