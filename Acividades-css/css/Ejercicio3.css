@@ -1,18 +1,34 @@
 .parrafo_destacado{
     font-size: 0.8rem;
-    color: #ff0000;
+    color: var(--baltic-blue);
     font-style: italic;
 }
 
 .parrafo_estandar{
     font-size: 1.2rem;
-    color: #2A9D8F;
+    color: var(--periwinkle);
 }
 
 p{
-   color: #E9C46A;
+   color: var(--steel-blue);
 }
 
 h1, h2{
-    color: #F4A261;
+    color: var(--light-blue);
+    text-align: center;
+    font-family: "Montserrat", sans-serifs;
+}
+
+
+
+/* Paleta de colores */
+/* Definición de variables (custom properties) */
+
+:root{
+
+--baltic-blue: #1f5673ff;
+--steel-blue: #759fbcff;
+--light-blue: #90c3c8ff;
+--periwinkle: #b9b8d3ff;
+
 }

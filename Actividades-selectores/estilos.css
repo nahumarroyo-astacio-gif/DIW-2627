@@ -1,0 +1,70 @@
+table {
+border-collapse: collapse;
+}
+
+td,
+th {
+border: 1px solid black;
+}
+
+/* Utilizando únicamente pseudoselectores,
+fondo verde a las casillas que contienen horas */
+
+tbody tr td:first-child{
+background-color: green;
+}
+
+/* Fondo amarillo a la celda RECREO */
+
+tbody tr:nth-child(3) td:nth-child(2) {
+background-color: yellow;
+font-weight: bold;
+text-align: center;
+}
+
+/* Estados de los enlaces */
+
+/* Nunca subrayados */
+a {
+text-decoration: none;
+}
+
+/* Visitados en rojo */
+a:visited {
+color: red;
+}
+
+/* No visitados en verde */
+a:link {
+color: green;
+}
+
+/* Al pasar el ratón sobre las celdas
+de la columna del viernes */
+
+/* Version que no afecta al recreo */
+tr:not(:nth-child(3)) td:last-child:hover, th:last-child:hover {
+font-size: 2rem;
+}
+
+/* Primera letra de los días con el doble de tamaño */
+
+th::first-letter {
+font-size: 2rem;
+}
+
+/* Borde rojo separado 5px
+en los campos obligatorios */
+
+input:required {
+outline: 2px solid red;
+padding: 5px;
+}
+
+/* Añadir un * rojo detrás
+de las etiquetas del formulario */
+
+label::after {
+content: "*";
+color: red;
+}
