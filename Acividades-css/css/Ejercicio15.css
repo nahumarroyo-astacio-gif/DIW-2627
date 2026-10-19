@@ -1,7 +1,15 @@
-*{
-    text-align: center;
+.container img :nth-last-of-type(1){
+    float: right;
+}
+.container img :nth-last-of-type(2){
+    float: left;
+}
+.container img :nth-last-of-type(3){
+    float: left;
 }
 
-.container img{
-    float: right;
+
+.container{
+    border: 2px solid black;
+
 }
