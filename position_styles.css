@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px dashed black;
+    margin: 50px;
+    height: 675px;
+    width: 750px;
+
+    position: relative;
+}
+
+.element{
+    border: 2px solid black;
+    font-size: 1.2rem;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    line-height: 76px;
+}
+
+.first{
+    background-color: aquamarine;
+    left: 100px;
+    top: 50px;
+    /* static: por defecto se situa según flujo html; 
+    ignora top, bottom, left, right y z-index */
+}
+.second{
+    background-color: chartreuse;
+     left: 250px;
+     /* top: 50px; */
+     position: relative;
+     /* relative: activa top, bottom, left, right y z-index;
+     el desplazamiento se realiza desde su posición según su flujo HTML */
+}
+.third{
+    background-color: coral;
+    left: 250px;
+    position: absolute;
+    top: 0px;
+    /* absolute: activa top, bottom, left, right y z-index; 
+    sale del flujo html y su posicion la ocupan otros elementos;
+    el desplazamiento se realiza desde sel borde de la ventana del navegador o desde su primer ancestro con position relative*/
+
+}
+.fourth{
+    background-color: darkgoldenrod;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* static: activa top, bottom, left, right y z-index;
+    fija el elemento en la pantalla; sale del flujo;
+    sale del flujo se posiciona siempre desde el borde de la ventana del navegador*/
+}
+.fifth{
+    background-color: crimson;
+    position: sticky;
+    top: 10px;
+
+    /* sitcky: activa top, bottom, left, right y z-index 
+     imprescindible que tenga la propiedad top*/
+}
