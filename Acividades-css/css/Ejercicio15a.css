@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+                
+}
+
+img:first-child{
+    float: right;
+}
+
+img{
+    float: left;
+    padding: 1rem;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-inline: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+p:last-child{
+    clear: left;
+}
+
+body{
+    font-size: 20px;
+}

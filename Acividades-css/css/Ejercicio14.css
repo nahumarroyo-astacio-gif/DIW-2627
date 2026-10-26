@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100rem;
+    background: linear-gradient(to right, white, blue);
+    color: black;
+}
+
+.threecolumns{
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px;
+}
+
+.columns{
+    column-width: 10rem;
+}
