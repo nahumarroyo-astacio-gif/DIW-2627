@@ -1,0 +1,49 @@
+h1{
+    text-shadow: 2px 2px 3px rgb(79, 79, 79);
+}
+
+h3{
+    text-shadow: 2px 2px 3px rgb(79, 79, 79);
+}
+
+p {
+    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.3);
+}
+
+
+.shady {
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px lime;
+}
+
+.shady2 {
+    margin: 20px;
+    padding: 15px;
+    box-shadow: -5px 5px 0 red;
+}
+
+.shady3 {
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 5px 0 0 blue;
+}
+
+body {
+    background: linear-gradient(to top, blue, transparent);
+}
+
+.degradado{
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+}
+
+.degradado2{
+    width: 170px;
+    height: 170px;
+    margin: 30px;
+    border-radius: 50%;
+    background: conic-gradient(red, orange, yellow, green, blue, red);
+}

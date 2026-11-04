@@ -1,0 +1,20 @@
+.botón1{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    box-shadow: 3px 3px 3px rgb(134, 1, 1);
+}
+
+.botón2{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    width: 80px;
+    background: linear-gradient(to right, orange 60%, yellow);
+}
+
+.botón2:hover{
+    box-shadow: 0 0 15px orange;
+    background: orange;
+}

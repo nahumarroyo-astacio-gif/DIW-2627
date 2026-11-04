@@ -1,0 +1,22 @@
+div{
+    background-color: rgb(170, 170, 170);
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 
+    5px 5px 5px black;
+}
+
+.yoda{
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    filter: drop-shadow(0 0 20px green)
+            drop-shadow(5px 5px 5px black)
+}
