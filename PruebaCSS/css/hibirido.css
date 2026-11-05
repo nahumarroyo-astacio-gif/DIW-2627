@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 15px;
+    background-color: rgb(156, 255, 222);
+    height: 600px;
+    max-width: 1200px;
+    min-width: 576px;
+    margin: 25px auto;
+}
+
+header{
+    margin: 10px ;
+    height: 35px;
+    background-color: orange;
+}
+
+article{
+    background-color: rgb(48, 218, 218);
+    margin: 10px;
+    height: 450px;
+}
+
+main{
+    display: flex;
+}
