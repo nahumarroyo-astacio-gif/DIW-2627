@@ -1,21 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 h1{
     text-shadow: 
     3px 3px 3px black;
     text-align: center;
-    margin-left: 50px;
 }
 
 .card{
     width: 350px;
     height: 350px;
     padding: 10px;
-    margin-left: 220px;
     border-radius: 5px;
     border: 1px solid black;
     text-align: center;
     overflow: hidden;
     box-shadow: 
     5px 5px 10px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
