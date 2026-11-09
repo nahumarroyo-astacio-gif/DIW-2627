@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.montaña{
+    height: 1500px;
+    background-image: url(../img/pexels-martijn-hellemans-186690170-11307966.jpg);
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ola {
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    bottom: 0;
+}
