@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    header, article {
+        height: 300px;
+    }
+
+    .container {
+        height: 90%;
+        margin: auto;
+    }
+
+     .red {
+        background-color: red;
+        float: left;
+        width: 25%;
+    }
+
+    .blue {
+        background-color: blue;
+        float: left;
+        width: 50%;
+    }
+
+    .yellow {
+        background-color: yellow;
+        float: left;
+        width: 25%;
+    }
+
+
+
+    @media screen and (max-width: 992px) {
+
+        .red {
+            background-color: red;
+            float: left;
+            width: 50%;
+        }
+
+        .blue {
+            background-color: blue;
+            float: left;
+            width: 50%;
+        }
+
+        .yellow {
+            background-color: yellow;
+            clear: both;
+            width: 100%;
+        }
+    }
+
+
+    @media screen and (max-width: 576px) {
+
+        .red {
+            background-color: red;
+            float: left;
+            width: 100%;
+        }
+
+        .blue {
+            background-color: blue;
+            clear: both;
+            width: 100%;
+        }
+
+        .yellow {
+            background-color: yellow;
+            clear: both;
+            width: 100%;
+        }
+
+
+
+    }
