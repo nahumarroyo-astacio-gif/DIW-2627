@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px dashed black;
+    margin: 50px;
+    width: 90%;
+    max-width: 1000px;
+    height: 675px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+
+    /*Alineacion de los flex items en el eje principal*/
+    /* justify-content: space-between; */
+
+    /*Alineacion de los flex items en el eje secundario*/
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.item{
+    border: 2px solid black;
+    font-size: 1.2rem;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    line-height: 76px;
+    text-align: center;
+
+    /* factor de estrechamiento */
+    flex-shrink: 0;
+    flex-basis: 150px;
+
+    /* flex-grow: 1; */
+}
+
+.item1{
+    background-color: lime;
+    /* flex-grow: 1; */
+}
+
+.item2{
+    background-color: red;
+    /* Alineacion de un elemento concreto en el eje secundario */
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
+}
+
+.item3{
+    background-color: blue;
+    /* Para probar baseline */
+    /* font-size: 3rem; */
+    /* margin-left: auto; */
+    /* flex-grow: 2; */
+}
+
+.item4{
+    background-color: purple;
+    /* Alineacion de un elemento concreto en el eje secundario */
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
+}
+
+.item5{
+    background-color: palevioletred;
+    /* Para probar baseline */
+    /* font-size: 5rem; */
+    /* margin-top: auto; */
+    /* flex-grow: 1; */
+}
+
+.item6{
+    background-color: burlywood;
+    
+}
+
+.item7{
+    background-color: goldenrod;
+ 
+}
+
+.item8{
+    background-color: yellow;
+ 
+}
+
+/* Jerarquia de tamaño en css */
+/* max-content < width < flex-basis < max-width o min-width */
