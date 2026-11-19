@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+width: 100vw;
+height: 50vh;
+background-color: rgb(4, 4, 51);
+position: fixed;
+bottom: 0;
+z-index: -1;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh; 
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+.caja {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container__basico{
+    padding: 5px;
+    height: 40vh;
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.container__intermedio{
+    padding: 5px;
+    height: 40vh;
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(97, 97, 255);
+
+}
+.container__profesional{
+    padding: 5px;
+    height: 40vh;
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.boton_basico{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.boton_intermedio{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.boton_profesional{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
+    }
+
+    .caja{
+        flex-basis: 40%;
+    }
+
+    .fondo {
+        background-color: white;
+    }
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+        gap: 25px;
+    }
+
+    
+}
