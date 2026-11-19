@@ -14,7 +14,7 @@ z-index: -1;
 }
 
 .container{
-    width: 100vw;
+    width: 90%;
     height: 100vh; 
     justify-content: space-evenly;
     text-align: center;
